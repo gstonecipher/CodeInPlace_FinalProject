@@ -60,7 +60,6 @@ def check_if_done(canvas):
     full_cells = canvas.find_withtag("full")
     for cell in full_cells:
         if get_top_coord(canvas, cell) -2 < SIZE :
-            print(get_top_coord(canvas, cell))
             return True
 
 
